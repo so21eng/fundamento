@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1a2332, #2f3b52);
+    margin: 0;
+    padding: 0;
+}
+
+.alerta {
+    background: #f57a0e;
+    color: white;
+    padding: 22px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.contenedor {
+    background: white;
+    padding: 35px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    animation: aparecer 0.6s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contenedor h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1a2332;
+    font-size: 26px;
+}
+
+.contenedor p {
+    font-size: 17px;
+    margin: 12px 0;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.contenedor b {
+    color: #a51931;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .alerta {
+        font-size: 20px;
+        padding: 18px;
+    }
+}
