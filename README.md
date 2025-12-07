@@ -1,1 +1,84 @@
-# fundamento
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN</title>
+    <link rel="stylesheet" href="stylos.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <span class="iconos">🔶🔶</span>
+        <strong>LG Solar</strong>
+        <span class="logo-text">Mejora el medio ambiente</span>
+    </div>
+
+    <nav class="menu">
+        <a href="#Porq">Por qué LG Solar</a>
+        <a href="#Acerca">Acerca de</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Son tiempos<br>de cambio</h1>
+            <p>Genera y almacena tu propia energía. Empieza a ahorrar<br>ya con energía limpia y ecológica.</p>
+            <a href="#form" class="btn">Ver cómo</a>
+        </div>
+    </section>
+
+    <section id="form" class="form-section">
+        <h2>¡Obtén hoy un estimado sin compromiso!</h2>
+
+        <form class="form-container">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="nombre">Nombre *</label>
+                    <input type="text" id="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido">Apellido *</label>
+                    <input type="text" id="apellido" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono *</label>
+                    <input type="tel" id="telefono" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion">
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="tipo" value="propietario">
+                    Propietario
+                </label>
+
+                <label class="checkbox-label">
+                    <input type="checkbox" name="tipo" value="empresario">
+                    Empresario
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-submit">Enviar</button>
+        </form>
+            <script src="JAVA.js"></script>
+
+    </section>
+
+</body>
+</html>
